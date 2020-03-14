@@ -3,9 +3,9 @@ var mysql = require('mysql');
 //local mysql db connection
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'minhnbh',
-    password : 'minhnbh123',
-    database : 'expressjs_api',
+    user     : 'minhnbh_db',
+    password : 'minhnbh_db',
+    database : 'minhnbh_expressjs',
     port     : '3306',
 });
 
